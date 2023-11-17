@@ -6,11 +6,11 @@ public class Employee extends Person{
 
     public Employee(String firstName, String lastName, int age, double salary) {
         super(firstName, lastName, age);
-        this.salary = 0;
+        this.salary = 10;
     }
 
     public double getSalary() {
-        return salary+5;
+        return salary+7;
     }
 
     public void setSalary(double salary) {
